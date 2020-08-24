@@ -140,6 +140,14 @@ export const cliInfo: CliInfo = {
       type: 'string',
       describe: 'Uses ngrok to create and outfacing url',
     },
+    'ngrok-config': {
+      type: 'string',
+      describe: 'Path to custom ngrok config for project specific config.',
+    },
+    'ngrok-name': {
+      type: 'string',
+      describe: 'Name of ngrok tunnel config.',
+    },
     logs: {
       type: 'boolean',
       default: true,

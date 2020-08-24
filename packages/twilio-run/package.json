@@ -58,7 +58,7 @@
     "lodash.kebabcase": "^4.1.1",
     "lodash.startcase": "^4.4.0",
     "log-symbols": "^2.2.0",
-    "ngrok": "^3.0.1",
+    "ngrok": "^3.2.7",
     "nocache": "^2.1.0",
     "normalize.css": "^8.0.1",
     "ora": "^3.3.1",
@@ -70,6 +70,7 @@
     "type-fest": "^0.15.1",
     "window-size": "^1.1.1",
     "wrap-ansi": "^5.1.0",
+    "yaml": "^1.10.0",
     "yargs": "^13.2.2"
   },
   "devDependencies": {
