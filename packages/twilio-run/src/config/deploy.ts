@@ -71,7 +71,7 @@ export async function getConfigFromFlags(
   }
 
   const { localEnv: envFileVars, envPath } = await readLocalEnvFile(flags);
-  const { accountSid, authToken } = await getCredentialsFromFlags(
+  const { username, password } = await getCredentialsFromFlags(
     flags,
     envFileVars,
     externalCliOptions
@@ -106,8 +106,8 @@ export async function getConfigFromFlags(
   return {
     cwd,
     envPath,
-    username: accountSid,
-    password: authToken,
+    username,
+    password,
     env,
     serviceSid,
     pkgJson,
