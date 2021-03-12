@@ -1,5 +1,5 @@
 {
-  "name": "twilio-run",
+  "name": "@anzx/twilio-run",
   "version": "3.0.0-beta.0",
   "bin": {
     "twilio-functions": "./bin/twilio-run.js",
@@ -13,6 +13,9 @@
     "build": "tsc",
     "build:noemit": "tsc --noEmit",
     "prepack": "run-s clean build"
+  },
+  "publishConfig": {
+    "registry": "https://artifactory.gcp.anz/artifactory/api/npm/contact-centre-npm/"
   },
   "keywords": [
     "twilio",
@@ -34,7 +37,7 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "@twilio-labs/serverless-api": "^5.0.0-beta.0",
+    "@anzx/serverless-api": "^5.0.0-beta.0",
     "@twilio-labs/serverless-runtime-types": "^2.0.0-beta.0",
     "@types/express": "^4.17.0",
     "@types/inquirer": "^6.0.3",
