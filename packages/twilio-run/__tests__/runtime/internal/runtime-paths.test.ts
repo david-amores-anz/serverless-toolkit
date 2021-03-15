@@ -1,5 +1,5 @@
-jest.doMock('@twilio-labs/serverless-api', () => {
-  const mod = jest.requireActual('@twilio-labs/serverless-api');
+jest.doMock('@anzx/serverless-api', () => {
+  const mod = jest.requireActual('@anzx/serverless-api');
   mod.fsHelpers.getListOfFunctionsAndAssets = jest
     .fn()
     .mockImplementation(() => {
@@ -40,7 +40,7 @@ jest.doMock('@twilio-labs/serverless-api', () => {
   return mod;
 });
 
-import { fsHelpers } from '@twilio-labs/serverless-api';
+import { fsHelpers } from '@anzx/serverless-api';
 import { getFunctionsAndAssets } from '../../../src/runtime/internal/runtime-paths';
 
 test('calls the right functions', async () => {

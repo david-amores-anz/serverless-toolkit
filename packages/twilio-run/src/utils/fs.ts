@@ -1,4 +1,4 @@
-import { FileInfo } from '@twilio-labs/serverless-api';
+import { FileInfo } from '@anzx/serverless-api';
 import fs from 'fs';
 import got from 'got';
 import path from 'path';

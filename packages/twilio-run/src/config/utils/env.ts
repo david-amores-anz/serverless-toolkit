@@ -1,4 +1,4 @@
-import { EnvironmentVariables } from '@twilio-labs/serverless-api';
+import { EnvironmentVariables } from '@anzx/serverless-api';
 import { stripIndent } from 'common-tags';
 import dotenv from 'dotenv';
 import path from 'path';

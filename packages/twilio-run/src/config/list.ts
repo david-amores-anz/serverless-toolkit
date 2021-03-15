@@ -1,7 +1,4 @@
-import {
-  ListConfig as ApiListConfig,
-  ListOptions,
-} from '@twilio-labs/serverless-api';
+import { ListConfig as ApiListConfig, ListOptions } from '@anzx/serverless-api';
 import path from 'path';
 import { Arguments } from 'yargs';
 import { cliInfo } from '../commands/list';

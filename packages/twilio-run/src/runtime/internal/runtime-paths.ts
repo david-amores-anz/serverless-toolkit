@@ -1,8 +1,8 @@
 import {
   fsHelpers,
   ServerlessResourceConfigWithFilePath,
-} from '@twilio-labs/serverless-api';
-import { SearchConfig } from '@twilio-labs/serverless-api/dist/utils';
+} from '@anzx/serverless-api';
+import { SearchConfig } from '@anzx/serverless-api/dist/utils';
 
 export type RouteInfo = {
   functions: ServerlessResourceConfigWithFilePath[];

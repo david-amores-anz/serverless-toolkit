@@ -1,7 +1,7 @@
 import {
   ClientConfig,
   LogsConfig as ApiLogsConfig,
-} from '@twilio-labs/serverless-api';
+} from '@anzx/serverless-api';
 import path from 'path';
 import { Arguments } from 'yargs';
 import checkForValidServiceSid from '../checks/check-service-sid';

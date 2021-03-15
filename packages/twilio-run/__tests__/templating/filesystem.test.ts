@@ -1,11 +1,11 @@
 jest.mock('listr/lib/renderer');
-jest.mock('@twilio-labs/serverless-api');
+jest.mock('@anzx/serverless-api');
 jest.mock('got');
 jest.mock('pkg-install');
 jest.mock('../../src/utils/fs');
 jest.mock('../../src/utils/logger');
 
-import { fsHelpers } from '@twilio-labs/serverless-api';
+import { fsHelpers } from '@anzx/serverless-api';
 import got from 'got';
 import path, { join } from 'path';
 import { install } from 'pkg-install';

@@ -2,7 +2,7 @@ import {
   AssetResource,
   DeployResult,
   FunctionResource,
-} from '@twilio-labs/serverless-api';
+} from '@anzx/serverless-api';
 import chalk from 'chalk';
 import columnify from 'columnify';
 import { stripIndent } from 'common-tags';

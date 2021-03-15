@@ -1,4 +1,4 @@
-import { TwilioServerlessApiClient } from '@twilio-labs/serverless-api';
+import { TwilioServerlessApiClient } from '@anzx/serverless-api';
 import { stripIndent } from 'common-tags';
 import { Ora } from 'ora';
 import path from 'path';

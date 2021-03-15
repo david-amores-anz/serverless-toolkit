@@ -1,4 +1,4 @@
-import { SearchConfig } from '@twilio-labs/serverless-api/dist/utils';
+import { SearchConfig } from '@anzx/serverless-api/dist/utils';
 import { ServerlessFunctionSignature } from '@twilio-labs/serverless-runtime-types/types';
 import bodyParser from 'body-parser';
 import chokidar from 'chokidar';

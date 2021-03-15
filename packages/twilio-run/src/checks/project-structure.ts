@@ -1,4 +1,4 @@
-import { fsHelpers } from '@twilio-labs/serverless-api';
+import { fsHelpers } from '@anzx/serverless-api';
 import chalk from 'chalk';
 import { commaListsOr, stripIndent } from 'common-tags';
 import { logger } from '../utils/logger';

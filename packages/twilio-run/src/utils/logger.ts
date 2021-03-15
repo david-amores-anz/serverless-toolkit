@@ -1,4 +1,4 @@
-import { ClientApiError } from '@twilio-labs/serverless-api/dist/utils/error';
+import { ClientApiError } from '@anzx/serverless-api/dist/utils/error';
 import debug from './debug';
 import ora from 'ora';
 import { Writable } from 'stream';

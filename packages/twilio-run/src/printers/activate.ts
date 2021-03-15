@@ -1,4 +1,4 @@
-import { ActivateResult } from '@twilio-labs/serverless-api';
+import { ActivateResult } from '@anzx/serverless-api';
 import { stripIndent } from 'common-tags';
 import { ActivateConfig } from '../config/activate';
 import { logger } from '../utils/logger';

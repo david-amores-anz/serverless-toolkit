@@ -1,4 +1,4 @@
-import { DeployLocalProjectConfig as ApiDeployLocalProjectConfig } from '@twilio-labs/serverless-api';
+import { DeployLocalProjectConfig as ApiDeployLocalProjectConfig } from '@anzx/serverless-api';
 import path from 'path';
 import { Arguments } from 'yargs';
 import { cliInfo } from '../commands/deploy';

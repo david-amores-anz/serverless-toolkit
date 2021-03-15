@@ -1,4 +1,4 @@
-import { EnvironmentVariables } from '@twilio-labs/serverless-api';
+import { EnvironmentVariables } from '@anzx/serverless-api';
 import dotenv from 'dotenv';
 import { readFileSync } from 'fs';
 import path, { resolve } from 'path';

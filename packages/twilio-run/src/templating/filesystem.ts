@@ -1,4 +1,4 @@
-import { fsHelpers } from '@twilio-labs/serverless-api';
+import { fsHelpers } from '@anzx/serverless-api';
 import chalk from 'chalk';
 import dotenv from 'dotenv';
 import got from 'got';

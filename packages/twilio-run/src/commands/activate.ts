@@ -1,4 +1,4 @@
-import { TwilioServerlessApiClient } from '@twilio-labs/serverless-api';
+import { TwilioServerlessApiClient } from '@anzx/serverless-api';
 import { Ora } from 'ora';
 import { Argv } from 'yargs';
 import { checkConfigForCredentials } from '../checks/check-credentials';
@@ -21,7 +21,7 @@ import {
   sharedCliOptions,
 } from './shared';
 import { CliInfo } from './types';
-import { ClientApiError } from '@twilio-labs/serverless-api/dist/utils/error';
+import { ClientApiError } from '@anzx/serverless-api/dist/utils/error';
 
 const debug = getDebugFunction('twilio-run:activate');
 

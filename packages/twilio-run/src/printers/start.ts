@@ -1,5 +1,5 @@
-import { ServerlessResourceConfig } from '@twilio-labs/serverless-api';
-import { SearchConfig } from '@twilio-labs/serverless-api/dist/utils';
+import { ServerlessResourceConfig } from '@anzx/serverless-api';
+import { SearchConfig } from '@anzx/serverless-api/dist/utils';
 import boxen from 'boxen';
 import chalk from 'chalk';
 import logSymbols from 'log-symbols';

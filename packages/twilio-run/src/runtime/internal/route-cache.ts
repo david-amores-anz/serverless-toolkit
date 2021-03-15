@@ -1,4 +1,4 @@
-import { ServerlessResourceConfigWithFilePath } from '@twilio-labs/serverless-api';
+import { ServerlessResourceConfigWithFilePath } from '@anzx/serverless-api';
 import { Merge } from 'type-fest';
 import { RouteInfo } from './runtime-paths';
 

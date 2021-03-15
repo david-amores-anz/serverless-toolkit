@@ -1,4 +1,4 @@
-import { ActivateConfig as ApiActivateConfig } from '@twilio-labs/serverless-api';
+import { ActivateConfig as ApiActivateConfig } from '@anzx/serverless-api';
 import path from 'path';
 import { Arguments } from 'yargs';
 import checkForValidServiceSid from '../checks/check-service-sid';

@@ -247,7 +247,7 @@ twilio-run logs --function-sid ZFXXX --environment production
 
 The module also exposes two functions that you can use outside of the CLI tool to spin up local development.
 
-If you want to interact with the Runtime API instead, [check out the `@twilio-labs/serverless-api` package](https://github.com/twilio-labs/serverless-api).
+If you want to interact with the Runtime API instead, [check out the `@anzx/serverless-api` package](https://github.com/twilio-labs/serverless-api).
 
 ### `runDevServer(port: number, baseDir: string): Promise<Express.Application>`
 

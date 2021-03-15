@@ -1,7 +1,7 @@
 import {
   LogApiResource,
   TwilioServerlessApiClient,
-} from '@twilio-labs/serverless-api';
+} from '@anzx/serverless-api';
 import { Argv } from 'yargs';
 import { checkConfigForCredentials } from '../checks/check-credentials';
 import checkForValidServiceSid from '../checks/check-service-sid';
